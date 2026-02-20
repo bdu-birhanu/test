@@ -1,2 +1,5 @@
-name: "My Dashboard"
-category: "Developer"
+<h1>Test Dashboard</h1>
+
+<pre>
+<%= `squeue -u #{ENV['USER']}` %>
+</pre>
