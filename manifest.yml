@@ -1,5 +1,2 @@
-<h1>Test Dashboard</h1>
-
-<pre>
-<%= `squeue -u #{ENV['USER']}` %>
-</pre>
+name: "Test Dashboard"
+description: "A simple one-page test dashboard"
